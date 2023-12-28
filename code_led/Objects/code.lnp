@@ -1,0 +1,6 @@
+".\Objects\STARTUP.obj",
+".\Objects\code.obj" 
+TO ".\Objects\code" 
+PRINT(".\Listings\code.m51") RAMSIZE(256) 
+CODE( 0X0000-0X1FFF )
+XDATA( 0X0000-0X0EFF )
