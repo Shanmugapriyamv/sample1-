@@ -1,4 +1,4 @@
-C51 COMPILER V9.60.7.0   CODE                                                              12/27/2023 12:22:53 PAGE 1   
+C51 COMPILER V9.60.7.0   CODE                                                              01/02/2024 13:34:12 PAGE 1   
 
 
 C51 COMPILER V9.60.7.0, COMPILATION OF MODULE CODE
@@ -22,7 +22,7 @@ line level    source
   11          *
   12          *Creat time:
   13          *Modify:
-  14          *    
+  14          * next check.......   
   15          *********************************************************************/
   16          #define _MAIN_C
   17          
@@ -62,7 +62,7 @@ line level    source
   51          #define LED_R   P32
   52          #define LED_G_0   P33
   53          #define LED_G_1   P46
-C51 COMPILER V9.60.7.0   CODE                                                              12/27/2023 12:22:53 PAGE 2   
+C51 COMPILER V9.60.7.0   CODE                                                              01/02/2024 13:34:12 PAGE 2   
 
   54          
   55          
@@ -126,7 +126,7 @@ line level    source
  113          *************************************************/
  114          void DelayXms(u16 xMs)
  115          {
-C51 COMPILER V9.60.7.0   CODE                                                              12/27/2023 12:22:53 PAGE 3   
+C51 COMPILER V9.60.7.0   CODE                                                              01/02/2024 13:34:12 PAGE 3   
 
  116   1        while(xMs!=0)
  117   1        {
@@ -190,7 +190,7 @@ line level    source
  175   1        _nop_();
  176   1        x=IFD;
  177   1        x=x&(~RSTIO_P);
-C51 COMPILER V9.60.7.0   CODE                                                              12/27/2023 12:22:53 PAGE 4   
+C51 COMPILER V9.60.7.0   CODE                                                              01/02/2024 13:34:12 PAGE 4   
 
  178   1        IFD=x;
  179   1        IFMT=ISP_WRITE_P;
@@ -254,7 +254,7 @@ line level    source
  237   1          P44=0;P33=0;P46=0;  P45=0;
  238   1          while(1)
  239   1          {
-C51 COMPILER V9.60.7.0   CODE                                                              12/27/2023 12:22:53 PAGE 5   
+C51 COMPILER V9.60.7.0   CODE                                                              01/02/2024 13:34:12 PAGE 5   
 
  240   2      //       if(P44==1)
  241   2      //       {
