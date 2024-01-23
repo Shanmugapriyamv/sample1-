@@ -18,7 +18,7 @@
 #include <Intrins.h>
 #include <Absacc.h>
 
-#include <Stdio.h>  // for printf
+#include <Stdio.h>  // for printf and scanf functions.
 
 #include "REG_MG82F6B08_001_104.H"
 #include "Type.h"
